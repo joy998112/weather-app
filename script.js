@@ -22,6 +22,7 @@ function update() {
       document.getElementById("time").innerHTML = formattedISTTime;
     }
   } else {
+    var a = istHours;
     if (istMinutes < 10) {
       const formattedISTTime = `${a}:0${istMinutes} AM`;
       document.getElementById("time").innerHTML = formattedISTTime;
