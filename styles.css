@@ -176,4 +176,11 @@ body {
     justify-content: space-around;
     grid-gap: 20px;
   }
+
+  #two2{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    grid-gap: 20px;
+  }
 }
